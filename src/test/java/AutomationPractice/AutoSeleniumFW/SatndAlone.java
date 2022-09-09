@@ -22,6 +22,7 @@ public class SatndAlone extends BaseTest{
 	public void config()
 	{
 		String path = System.getProperty("user.dir")+"\\reports\\index.html";
+		
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("Automation Results");
 		reporter.config().setDocumentTitle("Test Results");
