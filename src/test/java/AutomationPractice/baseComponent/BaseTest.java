@@ -56,6 +56,6 @@ public class BaseTest {
 	@AfterMethod
 	public void teatDown()
 	{
-		driver.quit();
+		driver.close();
 	}
 }
